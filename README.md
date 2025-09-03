@@ -1,9 +1,9 @@
 # TaskManagerApp
 
-[![CI - Test](https://github.com/TU_USUARIO/taskmanagerapp/actions/workflows/test.yml/badge.svg)](https://github.com/TU_USUARIO/taskmanagerapp/actions/workflows/test.yml)
-[![Deploy to Pages](https://github.com/TU_USUARIO/taskmanagerapp/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/TU_USUARIO/taskmanagerapp/actions/workflows/gh-pages.yml)
+[![CI - Test](https://github.com/ksunami/taskmanagerapp/actions/workflows/test.yml/badge.svg)](https://github.com/ksunami/taskmanagerapp/actions/workflows/test.yml)
+[![Deploy to Pages](https://github.com/ksunami/taskmanagerapp/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/ksunami/taskmanagerapp/actions/workflows/gh-pages.yml)
 ![Coverage](https://img.shields.io/badge/coverage-96%25-brightgreen.svg)
-[![GitHub Pages](https://img.shields.io/badge/pages-live-success.svg)](https://TU_USUARIO.github.io/taskmanagerapp/)
+[![GitHub Pages](https://img.shields.io/badge/pages-live-success.svg)](https://ksunami.github.io/taskmanagerapp/)
 
 Aplicación **Next.js + TypeScript** con **Redux Toolkit** para gestionar tareas y una vista de **listado remoto**. Incluye **accesibilidad**, **pruebas unitarias** con Jest + React Testing Library, y **despliegue** como *static export* en **GitHub Pages**.
 
@@ -11,12 +11,17 @@ Aplicación **Next.js + TypeScript** con **Redux Toolkit** para gestionar tareas
 
 ## 📸 Demo
 
-- **Live:** https://TU_USUARIO.github.io/taskmanagerapp/
-- **Capturas/GIFs** (colócalas en `public/preview/`):
+- **Live:** https://ksunami.github.io/taskmanagerapp/
+- **Capturas/GIFs** :
   - Home  
     ![Home](public/preview/home.png)
   - Crear tarea (validaciones)  
-    ![Crear Tarea](public/preview/create-task.gif)
+    ![Crear Tarea](public/preview/create-task.png)
+    ![Crear Tarea](public/preview/create-task.png)
+    ![Tarea](public/preview/Task1.png)
+    ![Redux](public/preview/Redux.png)
+    ![Validacion vacio](public/preview/TaskVacia.png)
+    ![Validacion existente](public/preview/TaskExistente.png)
   - Listado remoto (loading / error / fallback)  
     ![Remote List](public/preview/remote-list.png)
 
@@ -150,7 +155,7 @@ module.exports = {
 };
 ```
 
-> Si publicas como **User/Org site** (`https://TU_USUARIO.github.io`), **elimina** `basePath` y `assetPrefix`.
+> Si publicas como **User/Org site** (`https://ksunami.github.io`), **elimina** `basePath` y `assetPrefix`.
 
 ### 2) Publicación rápida con `gh-pages`
 
@@ -176,7 +181,7 @@ git init
 git add .
 git commit -m "chore: initial"
 git branch -M main
-git remote add origin https://github.com/TU_USUARIO/taskmanagerapp.git
+git remote add origin https://github.com/ksunami/taskmanagerapp.git
 git push -u origin main
 
 npm run deploy
@@ -187,7 +192,7 @@ En **GitHub → Settings → Pages**:
 - **Branch**: `gh-pages` / `(root)`
 
 La app quedará en:  
-`https://TU_USUARIO.github.io/taskmanagerapp/`
+`https://ksunami.github.io/taskmanagerapp/`
 
 ### (Opcional) Deploy automático con Actions
 
